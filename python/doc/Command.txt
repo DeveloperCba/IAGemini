@@ -1,0 +1,11 @@
+-- Cria uma ambiente virtual
+python -m venv .venv
+
+
+-- Ativa o ambiente virtual
+.venv\Scripts\activate
+
+
+pip install python-dotenv
+
+ pip install -U -q google-generativeai
